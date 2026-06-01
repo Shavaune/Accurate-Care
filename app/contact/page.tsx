@@ -26,10 +26,10 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    primary: "(800) 721-2009",
-    secondary: "(954) 791-4551",
+    primary: "(954) 791-4551",
+    secondary: "(800) 721-2009",
     description: "Toll-Free 24/7 for emergencies",
-    href: "tel:8007212009",
+    href: "tel:(954)791-4551"
   },
   {
     icon: Mail,
@@ -50,7 +50,7 @@ const contactInfo = [
     title: "Office Hours",
     primary: "Monday - Friday",
     secondary: "9:00 AM - 5:00 PM",
-    description: "24/7 Emergency Care Available",
+    description: "24/7 On Call Available",
   },
 ];
 
@@ -153,7 +153,7 @@ export default function ContactPage() {
                     className="h-16 rounded-2xl px-8 text-lg font-semibold shadow-lg"
                     asChild
                   >
-                    <Link href="tel:8007212009">
+                    <Link href="tel:(954)791-4551">
                       <Phone className="mr-3 h-5 w-5" />
                       Call Now
                       <ArrowRight className="ml-3 h-5 w-5" />
@@ -483,7 +483,7 @@ export default function ContactPage() {
                     </p>
 
                     <Button size="lg" className="rounded-xl" asChild>
-                      <a href="tel:8007212009">
+                      <a href="tel:(954) 791-4551">
                         <Phone className="mr-2 h-5 w-5" />
                         (954) 791-4551
                       </a>

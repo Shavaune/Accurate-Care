@@ -297,7 +297,7 @@ export default function HomePage() {
                     asChild
                   >
                     <Link href="/contact">
-                      <CalendarCheck className="mr-2 h-5 w-5" />
+                      <Phone className="mr-2 h-5 w-5" />
                       Call Us Today!
                     </Link>
                   </Button>
@@ -363,7 +363,7 @@ export default function HomePage() {
                     <div className="space-y-4 mb-6">
                       <div className="flex items-center justify-between p-4 bg-muted/50 rounded-2xl">
                         <span className="text-muted-foreground">Rapid Response</span>
-                        <span className="font-bold text-primary">2 Hours</span>
+                        <span className="font-bold text-primary">Immeadiately</span>
                       </div>
                       <div className="flex items-center justify-between p-4 bg-muted/50 rounded-2xl">
                         <span className="text-muted-foreground">Clients Served</span>
@@ -486,7 +486,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <p className="font-bold text-foreground">Rapid Response</p>
-                      <p className="text-sm text-muted-foreground">2-Hour Guarantee</p>
+                      <p className="text-sm text-muted-foreground">Immediate</p>
                     </div>
                   </div>
                   <p className="text-sm text-muted-foreground">
