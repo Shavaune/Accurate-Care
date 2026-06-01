@@ -248,7 +248,7 @@ export default function ServicesPage() {
 
         <div className="relative overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl">
           <Image
-            src="/images/service-aide.jpg"
+            src="/images/blck.png"
             alt="Caregiver assisting a senior patient"
             width={760}
             height={640}
