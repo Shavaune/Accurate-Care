@@ -93,10 +93,10 @@ export function Header() {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-foreground">
-                  Accurate Health Care
+                  Accurate Health Care Inc. 
                 </span>
                 <span className="text-xs text-muted-foreground hidden sm:block">
-                  Kind, Professional Care Givers
+                  Kind, Professional Care Givers...Paying Attention To Every Detail
                 </span>
               </div>
             </Link>
